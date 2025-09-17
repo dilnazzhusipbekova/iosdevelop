@@ -1,0 +1,39 @@
+import Foundation
+
+let firstName: String = "Дильназ"
+let lastName: String = "Жусипбекова"
+let birthYear: Int = 2004
+let birthDay: String = "21 января"
+let currentYear: Int = 2025
+let age: Int = currentYear - birthYear
+let height: Double = 1.61
+let hometown: String = "Актобе"
+let university: String = "КБТУ"
+let course: String = "последний курс"
+
+let hobby1: String = "готовить"
+let hobby2: String = "волейбол"
+let hobby3: String = "музыка"
+let hobby4: String = "шоппинг"
+let favoriteNumber1: Int = 21
+let favoriteNumber2: Int = 17
+let favoriteEmoji: String = "обезьянка, которая закрывает глаза"
+let favoriteFlower: String = "белые розы"
+
+let futureGoals: String = "Хочу устроиться на работу по специальности, иметь стабильный заработок и посетить несколько стран."
+
+let lifeStory = """
+Меня зовут \(firstName) \(lastName).
+Родилась в \(hometown) в \(birthYear) году, \(birthDay).
+Сейчас мне \(age) лет. Мой рост — \(height) м.
+Являюсь студенткой \(university), учусь на \(course).
+
+Я люблю: \(hobby1), \(hobby2), \(hobby3) и \(hobby4).
+Мои любимые числа — \(favoriteNumber1) и \(favoriteNumber2).
+Любимый смайлик — \(favoriteEmoji).
+А ещё я очень люблю \(favoriteFlower).
+
+\(futureGoals)
+"""
+
+print(lifeStory)
